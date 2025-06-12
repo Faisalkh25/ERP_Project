@@ -25837,11 +25837,10 @@ body {
         transform: rotate(360deg)
     }
 }
-
-.animated-scaleX {
+ .animated-scaleX {
     -webkit-animation: animScale 45s 1s ease-in-out infinite;
     animation: animScale 45s 1s ease-in-out infinite
-}
+} 
 
 .animated-scale {
     -webkit-animation: animScale 45s 1s ease-in-out infinite;

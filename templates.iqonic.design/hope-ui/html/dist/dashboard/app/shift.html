@@ -93,7 +93,7 @@
                         </a>
                     </li>
 
-                    <li class="nav-item">
+                   <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">
               <i class="icon">
                 <!-- <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-20">
@@ -400,7 +400,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="department.html">
+                                <a class="nav-link" href="department.html">
                                     <i class="icon">
                                         <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10"
                                             viewBox="0 0 24 24" fill="currentColor">
@@ -414,7 +414,21 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="shift.html">
+                                <a class="nav-link" href="user-add.html">
+                                    <i class="icon">
+                                        <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10"
+                                            viewBox="0 0 24 24" fill="currentColor">
+                                            <g>
+                                                <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                    <i class="sidenav-mini-icon"> A </i>
+                                    <span class="item-name">Add Employee</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="shift.html">
                                     <i class="icon">
                                         <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10"
                                             viewBox="0 0 24 24" fill="currentColor">
@@ -428,7 +442,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="app/add-level.html">
+                                <a class="nav-link " href="add-level.html">
                                     <i class="icon">
                                         <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
                                             <g>
@@ -454,22 +468,6 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="user-add.html">
-                                    <i class="icon">
-                                        <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10"
-                                            viewBox="0 0 24 24" fill="currentColor">
-                                            <g>
-                                                <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
-                                            </g>
-                                        </svg>
-                                    </i>
-                                    <i class="sidenav-mini-icon"> A </i>
-                                    <span class="item-name">Add Employee</span>
-                                </a>
-                            </li>
-                            
-                            
-                            <li class="nav-item">
                                 <a class="nav-link " href="user-list.html">
                                     <i class="icon">
                                         <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10"
@@ -483,6 +481,7 @@
                                     <span class="item-name">Employee List</span>
                                 </a>
                             </li>
+                            
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -547,9 +546,9 @@
                                     </i>
                                     <span class="item-name">Maintenance</span>
                                 </a>
-                            </li> -->
+                            </li>-->
                         </ul>
-                    </li>
+                    </li> 
                     <li class="nav-item">
                         <a class="nav-link " href="../admin.html">
                             <i class="icon">
@@ -935,8 +934,6 @@
                                 </svg>
                             </div>
                         </div>
-                        <!--logo End-->
-
 
 
                         <h4 class="logo-title">Barrownz</h4>
@@ -1185,8 +1182,8 @@
                         <div class="col-md-12">
                             <div class="flex-wrap d-flex justify-content-between align-items-center">
                                 <div>
-                                    <h1>Hello Devs!</h1>
-                                    <p>We are on a mission to help developers build successful projects.</p>
+                                    <h1>Hello Admin!</h1>
+                                    <p>"Leadership is not about being in charge. It is about taking care of those in your charge."</p>
                                 </div>
                                 <div>
                                     <a href="#" class="btn btn-link btn-soft-light">
@@ -1232,7 +1229,7 @@
                         <div class="card">
                             <div class="card-header d-flex justify-content-between">
                                 <div class="header-title">
-                                    <h4 class="card-title">Add Employee Information</h4>
+                                    <h4 class="card-title">Add New Shift</h4>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -1241,235 +1238,150 @@
                                         <div class="row">
 
                                             <div class="form-group col-md-6">
-                                                <label class="form-label" for="fname">First Name:</label>
-                                                <input type="text" class="form-control" id="fname"
-                                                    placeholder="First Name">
+                                                <label class="form-label" for="fname">Shift Name:</label>
+                                                <input type="text" class="form-control custom-input" id="Shiftname"
+                                                placeholder="Shift Name">
+
+
                                             </div>
                                             <div class="form-group col-md-6">
-                                                <label class="form-label" for="lname">Last Name:</label>
-                                                <input type="text" class="form-control" id="lname"
-                                                    placeholder="Last Name">
+                                                <label class="form-label" for="lname">Shift Code:</label>
+                                                <input type="text" class="form-control" id="shiftcode"
+                                                    placeholder="Shift Code">
                                             </div>
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="lname">Employee Code:</label>
-                                                <input type="number" class="form-control" id="lname"
-                                                    placeholder="Employee Code">
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="dob">Date of Birth:</label>
-                                                <input type="date" class="form-control" id="dob"
-                                                    placeholder="Date of Birth">
+                                            <div class="form-group col-md-4">
+                                                <label class="form-label" for="lname">Login:</label>
+                                                <input type="time" class="form-control" id="login">
                                             </div>
 
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="email">Email:</label>
-                                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                            <div class="form-group col-md-4">
+                                                <label class="form-label" for="dob">Login Off:</label>
+                                                <input type="time" class="form-control" id="loginoff">
                                             </div>
 
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="personalEmail">Personal Email:</label>
-                                                <input type="email" class="form-control" id="personalEmail"
-                                                    placeholder="Personal Email">
+                                            <div class="form-group col-md-4">
+                                                <label class="form-label" for="email">Shift Hours:</label>
+                                                <input type="text" class="form-control" id="shift_hours" placeholder="Enter Hours..">
                                             </div>
 
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="add1">Address:</label>
-                                                <input type="text" class="form-control" id="add1" placeholder="Address">
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="pno">Pin Code:</label>
-                                                <input type="text" class="form-control" id="pno" placeholder="Pin Code">
-                                            </div>
-
-
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="mobno">Mobile Number:</label>
-                                                <input type="number" class="form-control" id="mobno"
-                                                    placeholder="Mobile Number">
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="dob">Joining Date:</label>
-                                                <input type="date" class="form-control" id="dob"
-                                                    placeholder="Date of Birth">
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="designation">Employee
-                                                    Designation:</label>
-                                                <select class="form-control" id="designation">
-                                                    <option value="" disabled selected>Select Designation</option>
-                                                    <option value="Software Engineer">Software Engineer</option>
-                                                    <option value="Senior Developer">Senior Developer</option>
-                                                    <option value="Team Lead">Team Lead</option>
-                                                    <option value="Project Manager">Project Manager</option>
-                                                    <option value="HR">HR</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="gender">Employee Gender:</label>
-                                                <select class="form-control" id="gender">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="Male">Male</option>
-                                                    <option value="Female">Female</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="level">Employee Level:</label>
-                                                <select class="form-control" id="level">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="1.1">1.1</option>
-                                                    <option value="1.2">1.2</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="company">Company:</label>
-                                                <select class="form-control" id="company">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="one">One</option>
-                                                    <option value="two">Two</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="shift">Employee Shifts:</label>
-                                                <select class="form-control" id="shift">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="Shift A">Shift A</option>
-                                                    <option value="Shift B">Shift B</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="employee_status">Employee Status:</label>
-                                                <select class="form-control" id="employee_status">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="Shift A">Shift A</option>
-                                                    <option value="Shift B">Shift B</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="joining_status">Joining Status:</label>
-                                                <select class="form-control" id="joining_status">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="Shift A">Shift A</option>
-                                                    <option value="Shift B">Shift B</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="rm_1">Reporting Manager 1:</label>
-                                                <select class="form-control" id="rm_1">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="Shift A"> A</option>
-                                                    <option value="Shift B"> B</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="rm_2">Reporting Manager 2:</label>
-                                                <select class="form-control" id="rm_2">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="Shift A"> A</option>
-                                                    <option value="Shift B"> B</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="working_status">Working Status:</label>
-                                                <select class="form-control" id="working_status">
-                                                    <option value="" disabled selected>Select</option>
-                                                    <option value="Shift A"> A</option>
-                                                    <option value="Shift B"> B</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="employee_role">Employee Role:</label>
-                                                <select name="type" class="selectpicker form-control" id="employee_role"
-                                                    data-style="py-0">
-                                                    <option>Select</option>
-                                                    <option>Admin</option>
-                                                    <option>Employee</option>
-                                                    <option>HR</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="form-group col-md-6">
-                                                <div class="form-group">
-                                                    <div class="profile-img-edit position-relative">
-                                                        <img src="../../assets/images/avatars/01.png" alt="profile-pic"
-                                                            class="theme-color-default-img profile-pic rounded avatar-100">
-                                                        <img src="../../assets/images/avatars/avtar_1.png"
-                                                            alt="profile-pic"
-                                                            class="theme-color-purple-img profile-pic rounded avatar-100">
-                                                        <img src="../../assets/images/avatars/avtar_2.png"
-                                                            alt="profile-pic"
-                                                            class="theme-color-blue-img profile-pic rounded avatar-100">
-                                                        <img src="../../assets/images/avatars/avtar_4.png"
-                                                            alt="profile-pic"
-                                                            class="theme-color-green-img profile-pic rounded avatar-100">
-                                                        <img src="../../assets/images/avatars/avtar_5.png"
-                                                            alt="profile-pic"
-                                                            class="theme-color-yellow-img profile-pic rounded avatar-100">
-                                                        <img src="../../assets/images/avatars/avtar_3.png"
-                                                            alt="profile-pic"
-                                                            class="theme-color-pink-img profile-pic rounded avatar-100">
-
-                                                        <div class="upload-icone bg-primary">
-                                                            <svg class="upload-button icon-14" width="14"
-                                                                viewBox="0 0 24 24">
-                                                                <path fill="#ffffff"
-                                                                    d="M14.06,9L15,9.94L5.92,19H5V18.08L14.06,9M17.66,3C17.41,3 17.15,3.1 16.96,3.29L15.13,5.12L18.88,8.87L20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18.17,3.09 17.92,3 17.66,3M14.06,6.19L3,17.25V21H6.75L17.81,9.94L14.06,6.19Z" />
-                                                            </svg>
-                                                            <input class="file-upload" type="file" accept="image/*">
-                                                        </div>
-                                                    </div>
-                                                    <div class="img-extension mt-3">
-                                                        <div class="d-inline-block align-items-center">
-                                                            <span>Only</span>
-                                                            <a href="javascript:void();">.jpg</a>
-                                                            <a href="javascript:void();">.png</a>
-                                                            <a href="javascript:void();">.jpeg</a>
-                                                            <span>allowed</span>
-                                                        </div>
+                                            <h5>Weekly Off</h5>
+                                            <div class="row">
+                                                <h6 class="mt-3">Saturday</h6>
+                                                <div class="form-group col-md-4">
+                                                    <div class="form-check mt-2">
+                                                        <input class="form-check-input" type="radio" name="permanentOn" id="radio-one" value="on">
+                                                        <label class="form-check-label">Permanent On</label>
                                                     </div>
                                                 </div>
+                                                <div class="form-group col-md-4">
+                                                    <div class="form-check mt-2">
+                                                        <input class="form-check-input" type="radio" name="permanentOn" id="radio-two" value="off">
+                                                        <label class="form-check-label">Alternate Off</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <div class="form-check mt-2">
+                                                        <input class="form-check-input" type="radio" name="permanentOn" id="radio-three" value="offf">
+                                                        <label class="form-check-label">Permanent Off</label>
+                                                    </div>
+                                                </div>
+                                            
                                             </div>
+
+                                            <div class="row">
+    <h6>Sunday</h6>
+
+    <div class="form-group col-md-4">
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="radio" name="sundayStatus" id="radio-four" value="ON">
+            <label class="form-check-label" for="radio-four">Permanent On</label>
+        </div>
+    </div>
+
+    <div class="form-group col-md-4">
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="radio" name="sundayStatus" id="radio-five" value="OFF">
+            <label class="form-check-label" for="radio-five">Permanent Off</label>
+        </div>
+    </div>
+
+    <div class="form-group col-md-4">
+        <!-- Optional empty block or add something if needed -->
+    </div>
+</div>
+
+                                            <div class="row">
+    <h6>Holiday</h6>
+
+    <div class="form-group col-md-4">
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="radio" name="holidayStatus" id="PermanentOn" value="ON">
+            <label class="form-check-label" for="PermanentOn">Permanent On</label>
+        </div>
+    </div>
+
+    <div class="form-group col-md-4">
+        <div class="form-check mt-2">
+            <input class="form-check-input" type="radio" name="holidayStatus" id="PermanentOff" value="OFF">
+            <label class="form-check-label" for="PermanentOff">Permanent Off</label>
+        </div>
+    </div>
+</div>
+
+                                           <!--Table shift start-->
+                                           <div class="card-body px-0">
+               <div class="table-responsive">
+                  <table id="user-list-table" class="table table-striped" role="grid" data-bs-toggle="data-table">
+                     <thead>
+                        <tr>
+                        
+                           <th class="bg-primary text-light">Session</th>
+                           <th class="bg-primary text-light">In Time</th>
+                           <th class="bg-primary text-light">Out Time</th>
+                           
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           
+                           <td>Session-1</td>
+                           <td><input type="time" class="form-control" id="shiftcode" placeholder="00:00"></td>
+                           <td><input type="time" class="form-control" id="shiftcode" placeholder="00:00"></td>
+                           
+                        </tr>
+                        <tr>
+                           
+                           <td>Session-2</td>
+                           <td><input type="time" class="form-control" id="shiftcode" placeholder="00:00"></td>
+                           <td><input type="time" class="form-control" id="shiftcode" placeholder="00:00"></td>
+                           
+                        </tr>
+                        <tr>
+                           
+                           <td>Session-3</td>
+                           <td><input type="time" class="form-control" id="shiftcode" placeholder="00:00"></td>
+                           <td><input type="time" class="form-control" id="shiftcode" placeholder="00:00"></td>
+                           
+                        </tr>
+                        <tr>
+                           
+                           <td>Session-4</td>
+                           <td><input type="time" class="form-control" id="shiftcode" placeholder="00:00"></td>
+                           <td><input type="time" class="form-control" id="shiftcode" placeholder="00:00"></td>
+                           
+                        </tr>
+                        
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+                                             
+
+                                        </div>
 
                                         </div>
                                         <hr>
-                                        <h5 class="mb-3">Security</h5>
-                                        <div class="row">
-                                            <div class="form-group col-md-12">
-                                                <label class="form-label" for="uname">Employee Code:</label>
-                                                <input type="number" class="form-control" id="uname"
-                                                    placeholder="Employee Code">
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="pass">Password:</label>
-                                                <input type="password" class="form-control" id="pass"
-                                                    placeholder="Password">
-                                            </div>
-                                            <div class="form-group col-md-6">
-                                                <label class="form-label" for="rpass">Repeat Password:</label>
-                                                <input type="password" class="form-control" id="rpass"
-                                                    placeholder="Repeat Password ">
-                                            </div>
-                                        </div>
-                                        <div class="checkbox">
-                                            <label class="form-label"><input class="form-check-input me-2"
-                                                    type="checkbox" value="" id="flexCheckChecked">Enable
-                                                Two-Factor-Authentication</label>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Add New Employee</button>
+                                        <button type="submit" class="btn btn-primary">Add New Shift</button>
                                     </form>
                                 </div>
                             </div>
